@@ -1,0 +1,41 @@
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --br-sm: 14px;
+  /* font sizes */
+  --font-size-13xl: 4rem;
+  --font-size-heading: 2.5vh;
+
+  /* Colors */
+  --color-mediumblue: #1d1ad4;
+  /* --color-black: #000; */
+  --color-orange: #ffbe16;
+  --color-white: #fff;
+  --color-primary-2:#32C766;
+}
+
+.rectangle-input {
+  outline: none;
+  /* border: 0.5px solid #000; */
+  background-color: #fff;
+  
+  border-radius: 40px;
+  border: 1px solid black;
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+  /* box-sizing: border-box; */
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 3%;
+  /* transition: 1s; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+}
+@media (max-width: 768px) {
+  .rectangle-input{
+    /* font-size: 17px; */
+    width: 70%;
+  }
+}
+
+

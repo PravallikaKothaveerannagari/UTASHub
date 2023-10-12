@@ -1,0 +1,64 @@
+
+.custom-card{
+    /* background-color: var(--color-bg-1); */
+    background-color: var(--primary);
+    /* background-color: #393E46; */
+    /* background-image: linear-gradient(to right top, #d20f7e, #c3138f, #af20a0, #942eaf, #703abc, #5d53d1, #4268e3, #007bf2, #009dff, #00b4de, #00c28c, #08c814); */
+    /* box-shadow: 20px 20px 10px rgba(255, 255, 255, 0.50) blur(5px); */
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    padding: 20px;
+    border-radius: 15px;
+    /* border: solid 3px ; */
+    /* color: black; */
+    backdrop-filter: blur(5px);
+    transition: 900ms;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    /* max-width: 30rem; */
+    /* max-height: 20rem; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* border: solid #00407f; */
+}
+
+.custom-card:hover{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: var(--accent);
+    color: white;
+    /* border-color:  #00407f; */
+    border-radius:0px ;
+    
+}
+
+.custom-card button{
+    color: black;
+    background-color: white;
+}
+.custom-card button:hover{
+    color: white;
+    background-color: black;
+}
+
+.file-card{
+    border: 0px;
+    border-radius: 0px;
+    
+}
+
+
+.level .custom-card{
+    /* background-color:var(--color-bg-1); */
+    border-radius: none;
+    text-align: center;
+    
+}
+h2{
+    text-wrap: balance;
+    /* white-space: nowrap; */
+    
+}
+.custom-card h6{
+    text-wrap: balance;
+}

@@ -1,0 +1,19 @@
+
+ul{
+    width: 100%;
+    align-items: left;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:  black;
+    /* color: var(--color-bg); */
+    font-weight: 100;
+    opacity: 80%;
+}
+li {
+    float: left;
+    margin-right:5px ;
+
+  }
